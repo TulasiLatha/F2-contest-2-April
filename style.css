@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    color:white;
+    margin:0;
+}
+.container_all{
+    margin: 20px 50px;
+}
+.container{
+    margin-top:30px;
+    margin-bottom:50px;
+
+}
+.input-container{
+ display: none;
+}
+.user-list{
+    display:flex;
+    color:white;
+
+}
+.user-card{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#filter-btn{
+    margin-top:40px;
+    width:150px;
+    height:30px;
+    margin-bottom: 40px;
+}
+#add-btn{
+    margin-top:40px;
+    width:150px;
+    height:30px;
+    
+}
+input{
+    background-color: black;
+    border: 1px solid lightgray;
+    height: 25px;
+    padding-left: 10px;
+    width: 270px;
+    color: lightgray;
+}
